@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>タブメニュー</title>
+
+  <!-- スタイルシートを読み込む -->
+  <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="tab">
+        <ul class="tab__menu">
+          <li class="tab__menu-item is-active" data-tab="01">Sheet1</li>
+          <li class="tab__menu-item" data-tab="02">Sheet2</li>
+          <li class="tab__menu-item" data-tab="03">Sheet3</li>
+        </ul>
+        <div class="tab__panel">
+            <div class="tab__panel-box tab__panel-box001 is-show" data-panel="01">
+              <p class="tab__panel-text">初期表示のタブです。初期表示のタブです。初期表示のタブです。初期表示のタブです。初期表示のタブです。初期表示のタブです。初期表示のタブです。初期表示のタブです。</p>
+            </div>
+            <div class="tab__panel-box tab__panel-box002" data-panel="02">
+              <p class="tab__panel-text">2枚目のタブです。2枚目のタブです。2枚目のタブです。2枚目のタブです。2枚目のタブです。2枚目のタブです。2枚目のタブです。2枚目のタブです。2枚目のタブです。2枚目のタブです。</p>
+            </div>
+            <div class="tab__panel-box tab__panel-box003" data-panel="03">
+              <p class="tab__panel-text">3枚目のタブです。3枚目のタブです。3枚目のタブです。3枚目のタブです。3枚目のタブです。3枚目のタブです。3枚目のタブです。3枚目のタブです。3枚目のタブです。3枚目のタブです。</p>
+            </div>
+          </div>
+      </div>
+  <!-- スクリプトを読み込む -->
+  <script src="index.js"></script>
+</body>
+</html>
